@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+<!-- Code for the header -->
+<div class="header">
+  <h1><img src="Resources/Trek Marlin 10 Mountain Bike.jpg" style="width:10%"> BIKES FOR YOU <img src="Resources/Trek Marlin 10 Mountain Bike.jpg" style="width:10%"></h1>
+      <!-- Nav bar example. -->
+</div>
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="updates.html">Updates</a>
+  <a href="bikes.html">Bikes</a>
+  <a href="basket.html">Cart</a>
+  <a href="loginregister.html">Login</a>
+  <a class="active" href="register.html">Register</a>
+<!-- Div for the search bar -->
+  <div class="search-container">
+      <input type="text" placeholder="Search..." name="search">
+    </form>
+  </div>
+</div>
+<h1>Register</h1>
+<!-- The code for the registering form -->
+<form name='registration' onSubmit="return formValidation();">
+<ul>
+<label for="userid">First Name</label>
+<input type="text" name="userid" size="12" placeholder="Enter First Name" />
+<label for="name">Last Name</label>
+<input type="text" name="name" size="12" placeholder="Enter Last Name" />
+<label for="email">Email Address</label></li>
+<input type="text" name="email" size="50" placeholder="Enter Email Address" />
+<label for="passid">Password</label></li>
+<input type="password" name="passid" size="50" placeholder="Enter Password" />
+<label for="pass">Confirm Password</label></li>
+<input type="password" name="pass" size="50" placeholder="Confirm Password" />
+<input type="submit" name="submit" value="Submit" />
+</ul>
+</form>
+      <!-- The code for the rollover at the bottom of the page -->
+<div style='display: flex; justify-content:
+center;'>
+  <a href="#">
+    <img src="Resources/Bike Rollover Image.jpg" style="width:60%"
+	onmouseover="this.src='Resources/Bike Rollover 2.jpg'"
+	onmouseout="this.src='Resources/Bike Rollover Image.jpg'" /> <p>Come and purchase the bike of your choice today.</p>
+  </a>
+</div>
+
+      <!-- Link to Javascript for register -->
+<script src="register.js"></script>
+</body>
